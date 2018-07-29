@@ -1,10 +1,13 @@
 # CerviOS_v1.6.2
 
+# Information
 CervisOS is a virtual drive that is only used for text files(no programs)
 
 CerviOS includes a set of commands for adding different users with different permissions.
 
 CerviOS is an unfinished program that has a lot more things to add, like copying and moving folder with its own files inside.
+
+# Guide
 
 First you need to configure it setting the fist username, his password and the password for the master user _system_
 
@@ -16,6 +19,8 @@ If you aren't logged in as _system_ you won't see the contents of the folder / b
 
 If you need help about how the permissions work you can type help_permissions and a help about permissions will show up.
 
+# Version Changes
+
 The versions have changed in the time including a lot of changes over the time and this version isn't an exception.
 
 There isn't much to see like a user but there is a bug fix that made the command dp_change not work after some times typing it. This happened when stoi converted str6 to an integer. Str6 wasn't reset in the end of the command handling loop`and that made in acumulate data of past uses of command that used str6. Int doesn't have enought capacity of saving all that numbers that were accomulated and gived a std:out_range exception.
@@ -24,7 +29,8 @@ I found the error while testing all the program for getting sure there wasn't an
 
 I am sure that the user was in fp too because it is the one that used str6 too.
 
-List of commands:
+# List of commands
+
 sd..................................................Shows the current folder
 ed_<directory>......................................Enters a directory
 dpb.................................................Gets a directory back(like cd .. in linux)
@@ -57,6 +63,8 @@ exitos..............................................Exits CerviOS
 version.............................................Shows the version of the system
 help_permissions....................................Explains how the permissions work
 help................................................Shows this information
+
+
 
 I will keep working in this project as long as I want ;-)
 C0D3R11
