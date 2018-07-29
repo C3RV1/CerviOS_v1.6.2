@@ -69,13 +69,13 @@ fp_show_<username>_<file_name>......................Shows the permission of the 
 
 fp_property_<file_name>.............................Shows the owner of the folder <file_name>
 
-dcp_<origin>_<destination>..........................Copies the origin folder to the destination(ONLY ABSOLUTE PATH)
+dcp_<oriigin>_<destiination>..........................Copies the origin folder to the destination(ONLY ABSOLUTE PATH)
 
-fcp_<origin>_<destination>..........................Copies the origin file to the destination(ONLY ABSOLUTE PATH)
+fcp_<oriigin>_<destiination>..........................Copies the origin file to the destination(ONLY ABSOLUTE PATH)
 
-dmv_<origin>_<destination>..........................Moves the origin folder to the destination(ONLY ABSOLUTE PATH)
+dmv_<oriigin>_<destiination>..........................Moves the origin folder to the destination(ONLY ABSOLUTE PATH)
 
-fmv_<origin>_<destination>..........................Moves the origin file to the destination(ONLY ABSOLUTE PATH)
+fmv_<oriigin>_<destiination>..........................Moves the origin file to the destination(ONLY ABSOLUTE PATH)
 
 whoami..............................................Shows current user in use
 
