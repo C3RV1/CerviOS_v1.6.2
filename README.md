@@ -32,36 +32,61 @@ I am sure that the user was in fp too because it is the one that used str6 too.
 # List of commands
 
 sd..................................................Shows the current folder
+
 ed_<directory>......................................Enters a directory
+
 dpb.................................................Gets a directory back(like cd .. in linux)
+
 nd_<new_directory_name>.............................Creates a directory with name: <new_directory_name>
+
 deld_<directory>....................................Deletes <directory> directory
+
 sf_<filename>.......................................Shows a file
+
 delf_<filename>.....................................Deletes a file
-wedit_<filename>....................................Edit's a file or creates a new one if it doesn't exist. End writing the
-                                                    file with $quit in a new line
+
+wedit_<filename>....................................Edit's a file or creates a new one if it doesn't exist. End writing the file with $quit in a new line
+
 user_add_<username>_<passwd>........................Adds the <username> user with the <passwd> password
+
 user_delete_<username>..............................Deletes the <username> user
+
 user_chpwd_<username>...............................Change the password of <username> user
+
 user_user-type_<username>...........................Changes the type of the user <username>
+
 user_list...........................................Shows a list of all users
-dp_change_<username>_<fodler_name>_<write><read>....Changes the permission of the user <username> in the folder <folder_name>
-                                                    to <write><read>
+
+dp_change_<username>_<fodler_name>_<write><read>....Changes the permission of the user <username> in the folder <folder_name> to <write><read>
+
 dp_show_<username>_<folder_name>....................Shows the permission of the user <username> in the folder <folder_name>
+
 dp_property_<folder_name>...........................Shows the owner of the folder <folder_name>
-fp_change_<username>_<file_name>_<write><read>......Changes the permission of the user <username> in the file <file_name> to
-                                                    <write><read>
+
+fp_change_<username>_<file_name>_<write><read>......Changes the permission of the user <username> in the file <file_name> to <write><read>
+
 fp_show_<username>_<file_name>......................Shows the permission of the user <username> in the file <file_name>
+
 fp_property_<file_name>.............................Shows the owner of the folder <file_name>
+
 dcp_<origin>_<destination>..........................Copies the origin folder to the destination(ONLY ABSOLUTE PATH)
+
 fcp_<origin>_<destination>..........................Copies the origin file to the destination(ONLY ABSOLUTE PATH)
+
 dmv_<origin>_<destination>..........................Moves the origin folder to the destination(ONLY ABSOLUTE PATH)
+
 fmv_<origin>_<destination>..........................Moves the origin file to the destination(ONLY ABSOLUTE PATH)
+
 whoami..............................................Shows current user in use
+
 logout..............................................Returns to login screen
+
 exitos..............................................Exits CerviOS
+
 version.............................................Shows the version of the system
+
 help_permissions....................................Explains how the permissions work
+
 help................................................Shows this information
 
 
